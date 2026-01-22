@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The World of Numeria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hud">
+  <h1>THE WORLD OF NUMERIA</h1>
+  <p>A Sword Art Online–Inspired Journey Through Mathematics</p>
+</header>
+
+<section class="map-section">
+  <img src="assets/numeria-map.png" class="map">
+  <div class="map-overlay">
+    <button onclick="go('beginner')">Beginner</button>
+    <button onclick="go('algebra')">Algebra</button>
+    <button onclick="go('algebra2')">Algebra II</button>
+    <button onclick="go('geometry')">Geometry</button>
+    <button onclick="go('trig')">Trigonometry</button>
+  </div>
+</section>
+
+<!-- BEGINNER -->
+<section id="beginner" class="floor">
+<h2>🏘️ Beginner Math (Floors 1–10)</h2>
+<ul>
+<li>Counting: <code>1, 2, 3, …</code></li>
+<li>Addition: <code>7 + 5 = 12</code></li>
+<li>Subtraction: <code>10 − 3 = 7</code></li>
+<li>Multiplication: <code>4 × 6 = 24</code></li>
+<li>Division: <code>24 ÷ 6 = 4</code></li>
+<li>Fractions: <code>3/4 + 1/4 = 1</code></li>
+<li>Decimals: <code>0.75</code></li>
+<li>Percents: <code>75% = 0.75</code></li>
+<li>Perimeter: <code>P = 2l + 2w</code></li>
+<li>Area: <code>A = lw</code></li>
+</ul>
+</section>
+
+<!-- ALGEBRA -->
+<section id="algebra" class="floor">
+<h2>🏙️ Algebra (Floors 11–25)</h2>
+<ul>
+<li>Simplify Expressions: <code>3x + 4x = 7x</code></li>
+<li>Slope: <code>m = (y₂ − y₁)/(x₂ − x₁)</code></li>
+<li>Slope-Intercept Form: <code>y = mx + b</code></li>
+<li>Point of a Line: <code>(x, y)</code></li>
+<li>Solving Linear Equations: <code>2x + 3 = 11</code></li>
+<li>Adding Polynomials: <code>(2x² + x) + (x² − 3)</code></li>
+<li>Subtracting Polynomials: <code>(3x² − x) − (x² + 4)</code></li>
+<li>Simplifying Radicals: <code>√50 = 5√2</code></li>
+</ul>
+</section>
+
+<!-- ALGEBRA II -->
+<section id="algebra2" class="floor">
+<h2>🧠 Algebra II (Floors 26–45)</h2>
+<ul>
+<li>Set Theory: <code>A ∪ B, A ∩ B</code></li>
+<li>Complex Plane: <code>z = a + bi</code></li>
+<li>Polynomial Multiplication: <code>(x+2)(x−3)</code></li>
+<li>Polynomial Division</li>
+<li>Synthetic Division</li>
+<li>Cross Product: <code>a × b</code></li>
+<li>Graphing Solutions on a Number Line</li>
+<li>Normal Distribution: mean (μ), standard deviation (σ)</li>
+<li>Gauss-Jordan Elimination</li>
+<li>Inverse of a Matrix: <code>A⁻¹</code></li>
+</ul>
+</section>
+
+<!-- GEOMETRY -->
+<section id="geometry" class="floor">
+<h2>📐 Geometry (Floors 46–65)</h2>
+<ul>
+<li>Formulas & Measurements</li>
+<li>Unit Conversions & Error</li>
+<li>Distance Formula: <code>√[(x₂−x₁)² + (y₂−y₁)²]</code></li>
+<li>Midpoint Formula: <code>((x₁+x₂)/2, (y₁+y₂)/2)</code></li>
+<li>Inductive & Deductive Reasoning</li>
+<li>Right Triangles</li>
+<li>Pythagorean Theorem: <code>a² + b² = c²</code></li>
+<li>Three-Dimensional Figures</li>
+<li>Symmetry & Transformations</li>
+</ul>
+</section>
+
+<!-- TRIG -->
+<section id="trig" class="floor final">
+<h2>🌌 Trigonometry (Floors 66–100)</h2>
+<ul>
+<li>Angles & Angle Measures</li>
+<li>Trigonometric Form: <code>r(cosθ + i sinθ)</code></li>
+<li>Z Complex Number</li>
+<li>Linear Relations & Scatter Plots</li>
+<li>Piecewise Functions</li>
+<li>Law of Sines: <code>a/sinA = b/sinB</code></li>
+<li>Law of Cosines: <code>c² = a² + b² − 2ab cosC</code></li>
+<li>Vectors</li>
+<li>Angular Velocity: <code>ω = θ/t</code></li>
+<li>Linear Velocity: <code>v = rω</code></li>
+</ul>
+
+<p class="boss">FINAL BOSS: The Equation of Everything</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
